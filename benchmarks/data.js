@@ -1,5 +1,5 @@
 window.BENCHMARK_DATA = {
-  "lastUpdate": 1756236425733,
+  "lastUpdate": 1773344294942,
   "repoUrl": "https://github.com/path-robotics/opentelemetry-cpp",
   "entries": {
     "OpenTelemetry-cpp api Benchmark": [
@@ -124378,6 +124378,54 @@ window.BENCHMARK_DATA = {
             "value": 1820590.7609727648,
             "unit": "ns/iter",
             "extra": "iterations: 216\ncpu: 640581.1574074073 ns\nthreads: 1"
+          }
+        ]
+      },
+      {
+        "commit": {
+          "author": {
+            "email": "49699333+dependabot[bot]@users.noreply.github.com",
+            "name": "dependabot[bot]",
+            "username": "dependabot[bot]"
+          },
+          "committer": {
+            "email": "noreply@github.com",
+            "name": "GitHub",
+            "username": "web-flow"
+          },
+          "distinct": true,
+          "id": "1b3733fa476c9dd08ae88d556ff9554d0d3529a1",
+          "message": "Bump actions/download-artifact from 8.0.0 to 8.0.1 (#3928)\n\nBumps [actions/download-artifact](https://github.com/actions/download-artifact) from 8.0.0 to 8.0.1.\n- [Release notes](https://github.com/actions/download-artifact/releases)\n- [Commits](https://github.com/actions/download-artifact/compare/70fc10c6e5e1ce46ad2ea6f2b72d43f7d47b13c3...3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c)\n\n---\nupdated-dependencies:\n- dependency-name: actions/download-artifact\n  dependency-version: 8.0.1\n  dependency-type: direct:production\n  update-type: version-update:semver-patch\n...\n\nSigned-off-by: dependabot[bot] <support@github.com>\nCo-authored-by: dependabot[bot] <49699333+dependabot[bot]@users.noreply.github.com>",
+          "timestamp": "2026-03-12T14:52:37+01:00",
+          "tree_id": "c13bdca5158efedf52c22ac926b06121813049e8",
+          "url": "https://github.com/path-robotics/opentelemetry-cpp/commit/1b3733fa476c9dd08ae88d556ff9554d0d3529a1"
+        },
+        "date": 1773344290170,
+        "tool": "googlecpp",
+        "benches": [
+          {
+            "name": "BM_OtlpExporterEmptySpans",
+            "value": 15.471058337566504,
+            "unit": "ns/iter",
+            "extra": "iterations: 9072000\ncpu: 15.471007385361553 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterSparseSpans",
+            "value": 136.21709344476548,
+            "unit": "ns/iter",
+            "extra": "iterations: 1039000\ncpu: 133.19626179018286 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_OtlpExporterDenseSpans",
+            "value": 994.0744356344675,
+            "unit": "ns/iter",
+            "extra": "iterations: 131000\ncpu: 990.3272061068702 ns\nthreads: 1"
+          },
+          {
+            "name": "BM_otlp_grpc_with_collector",
+            "value": 2413274.536670094,
+            "unit": "ns/iter",
+            "extra": "iterations: 284\ncpu: 493253.6478873243 ns\nthreads: 1"
           }
         ]
       }
